@@ -123,7 +123,7 @@ main :: proc()
     runState = RunState.Stopped,
     player = PlayerState{
       position = rl.Vector2{400, 300},
-      direction = PlayerDirection.Right,
+      direction = PlayerDirection.Up,
       speed = 100.0,
     },
   };
